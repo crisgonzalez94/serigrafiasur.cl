@@ -4,11 +4,13 @@ Allow: /
 Allow: /productos
 Allow: /contacto
 Allow: /galeria
+Allow: /acerca
 
 User-agent: *
 Allow: /
 Allow: /productos
 Allow: /contacto
 Allow: /galeria
+Allow: /acerca
 
 Sitemap: http://www.serigrafiasur.cl/sitemap.xml
