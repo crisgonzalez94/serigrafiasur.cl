@@ -13,6 +13,6 @@ class ProductoController extends Controller
         $productos = DB::table('producto')->get()->shuffle();
 
 
-        return view('productos' , ['productos' => $productos]);
+        return view('productos' , ['fotos' => $productos]);
     }
 }
