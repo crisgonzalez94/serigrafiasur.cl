@@ -12,7 +12,7 @@ class ProductoController extends Controller
         //Obteniendo las fotos de manera aleatoria desde la galeria
         $productos = DB::table('producto')->get()->shuffle();
 
-
-        return view('productos' , ['fotos' => $productos]);
+        
+        return view('productos' , ['fotos' =>$productos]);
     }
 }
