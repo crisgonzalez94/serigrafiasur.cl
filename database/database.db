@@ -1,0 +1,317 @@
+CREATE TABLE IF NOT EXISTS galeria(
+    id INT(255) AUTO_INCREMENT NOT NULL,
+    categoria VARCHAR(200),
+    titulo varchar(200),
+    descripcion VARCHAR(255),
+    path VARCHAR(200),
+    created_at DATETIME,
+    updated_at DATETIME,
+    remember_token VARCHAR(255),
+    CONSTRAINT pk_galeria PRIMARY KEY (id)
+)Engine=InnoDb;
+
+CREATE TABLE IF NOT EXISTS producto(
+    id INT(255) AUTO_INCREMENT NOT NULL,
+    categoria VARCHAR(200),
+    titulo varchar(200),
+    descripcion VARCHAR(255),
+    path VARCHAR(200),
+    created_at DATETIME,
+    updated_at DATETIME,
+    remember_token VARCHAR(255),
+    CONSTRAINT pk_producto PRIMARY KEY (id)
+)Engine=InnoDb;
+
+INSERT INTO producto VALUES(
+    NULL,
+    'Categoria' ,
+    'Titulo' ,
+    'descripcion' ,
+    'Path' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+
+INSERT INTO producto VALUES(
+    NULL,
+    'industriales' ,
+    'Overoles' ,
+    'Overoles para tu taller o fabrica, personalizado con tu logo!' ,
+   'https://res.cloudinary.com/hkwxndyh0/image/upload/v1631652807/products/overol_v764k6.png',
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'industriales' ,
+    'Geologos' ,
+    'Geologos para tu taller o fabrica, personalizado con tu logo!' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1631652720/products/geologos-verde_sau0td.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'industriales' ,
+    'Chalecos Reflectantes' ,
+    'Chalecos reflectantes para tu taller o fabrica, personalizado con tu logo!' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1617771362/products/14785-01.png.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'industriales' ,
+    'Parkas Impermeables Reflectantes' ,
+    'Impermeables para tu taller o fabrica, personalizado con tu logo!' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1631652926/products/parka-termica_quwa5s.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'industriales' ,
+    'Trajes de Agua' ,
+    'Trajes de agua Impermeable para tu taller o fabrica, personalizado con tu logo!' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1631654519/products/traje_de_lluvia_p9w1u4.gif' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+
+INSERT INTO producto VALUES(
+    NULL,
+    'poleras' ,
+    'Poleras Polo' ,
+    'Poleras Polo Mangas Cortas y Largas De tu empresa estampadas con tu logo.' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1617767806/products/70289-01.png.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'poleras' ,
+    'Polerones Polar' ,
+    'Polares Mangas Cortas y Largas De tu empresa estampadas con tu logo.' ,
+   'https://res.cloudinary.com/hkwxndyh0/image/upload/v1631653006/products/polar-negro_rzaitp.png',
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'poleras' ,
+    'Poleras Pique' ,
+    'Poleras Pique Mangas Cortas y Largas De tu empresa estampadas con tu logo.' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1617763367/products/76288-01.png.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'poleras' ,
+    'Poleras Fitness' ,
+    'Poleras Fitness deportivas para tu evento, o equipo personalizado.' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1617770703/products/38112-01.png.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'poleras' ,
+    'Camisetas de Futbol' ,
+    'Armamos tu equipacion de futbol.' ,
+    '' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'poleras' ,
+    'Polerones Full Body' ,
+    'Polerones full body, ¡Estampados por todos lados con diseños increibles!' ,
+    '' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+
+INSERT INTO producto VALUES(
+    NULL,
+    'poleras' ,
+    'Polerones Kanguros' ,
+    'Polerones Kanguros estampados con el logo de tu pyme o empresa.' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1617768637/products/47738-01.png.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'poleras' ,
+    'Polerones Polo' ,
+    'Polerones Polo con el logo de tu negocio.' ,
+    '' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'poleras' ,
+    'Polerones' ,
+    'Polerones con el logo de tu negocio.' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1617768638/products/47738-02.png.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+
+INSERT INTO producto VALUES(
+    NULL,
+    'poleras' ,
+    'Polerones' ,
+    'Polerones con el logo de tu negocio.' ,
+    '' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'gorros' ,
+    'Gorras Trucker' ,
+    'Gorras Trucker con el logo de tu pyme.' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1617767719/products/25648-01.png.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'tazones' ,
+    'Tazones' ,
+    'Tazones con el logo de tu pyme, negocio , banda o evento.' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1631653123/products/tazon_khkg9n.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'tazones' ,
+    'vasos' ,
+    'Vasos con el logo de tu pyme, negocio , banda o evento.' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1617770895/products/99962-01.png.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'tazones' ,
+    'Botellas' ,
+    'Botellas con el logo de tu pyme, negocio , banda o evento.' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1619048472/products/92787-02.png.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+
+INSERT INTO producto VALUES(
+    NULL,
+    'cajas' ,
+    'Cajas' ,
+    'Cajas personalizadas' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1617771222/products/44103-01.png.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'bolsas' ,
+    'Bolsas Tnt' ,
+    'Bolsas tnt personalizadas para tu pyme, negocio o evento.' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1617768297/products/30478-01.png.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'bolsas' ,
+    'Bolsas Craft' ,
+    'Bolsas Craft personalizadas para tu pyme, negocio o evento.' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1617768382/products/53260-01.png.png' ,
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+
+INSERT INTO producto VALUES(
+    NULL,
+    'otros' ,
+    'Mascarillas' ,
+    'Mascarillas personalizadas para tu pyme, negocio o evento.' ,
+      'https://res.cloudinary.com/hkwxndyh0/image/upload/v1631652724/products/mascarilla_ne0jac.png',
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+INSERT INTO producto VALUES(
+    NULL,
+    'otros' ,
+    'Carpetas' ,
+    'Carpetas personalizadas para tu pyme, negocio o evento.' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1617763315/products/84011-02.png.png',
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
+
+INSERT INTO producto VALUES(
+    NULL,
+    'otros' ,
+    'Almoadones' ,
+    'Almoadones personalizadas para tu pyme, negocio o evento.' ,
+    'https://res.cloudinary.com/hkwxndyh0/image/upload/v1617763315/products/84011-02.png.png',
+    CURTIME() ,
+    CURTIME()  ,
+    NULL
+);
+
