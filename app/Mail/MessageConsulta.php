@@ -31,6 +31,6 @@ class MessageConsulta extends Mailable{
     /*Este metodo envia el mensaje*/
     public function build(){
         //Vista para enviar al correo
-        return $this->view('emails.message-consulta');
+        return $this->view('emails.mensaje-consulta');
     }
 }

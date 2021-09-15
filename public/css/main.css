@@ -91,8 +91,10 @@ transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.3s;-m
 
 .hideHeader.vertecClosed { left: 0px; }
 
-.mobileNav { width: 100%; float: left; padding: 10px 0; background-color: #171b1f; display: none; position: relative; }
+.mobileNav { width: 100%; float: left; padding: 10px 0;display: none; position: relative; }
+.mobileNav{ background: linear-gradient(36deg, rgba(2,0,36,1) 0%, rgba(201,1,1,1) 0%, rgba(0,17,156,1) 100%); }
 .mobileNav .logo { margin: 0 0 0 20px; float: left; height: 60px; }
+.mobileImg{ height: 60px; }
 .mobileNav .mobileClick { margin-right: 30px; float: right; font-size: 40px; line-height: 60px; cursor: pointer; }
 .closeMobile { font-size: 50px; text-align: center; display: block; cursor: pointer;}
 

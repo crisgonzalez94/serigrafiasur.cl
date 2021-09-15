@@ -28,19 +28,26 @@
 
   </head>
   <body class="blog">
+
+
+    <!-- Cliengo installation code for ventas@serigrafiasur.cl --> <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/61414edcce9a3a002a7864f6/61414edfce9a3a002a7864f9.js?platform=dashboard'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script>
+
     <!--Logo de Inicio Carga-->
-    <div id="qLoverlay"><div class="loadLogo"><img src="img/logo.png" alt="vertec"></div><div class="spinner"></div></div>
+    <div id="qLoverlay"><div class="loadLogo"><img src="img/logo.png" alt="Serigrafia Sur Chile - Estampados vinilo ropa personalizada "></div><div class="spinner"></div></div>
     <!-------------------------->
     <div id="vertec-layout">
       <div class="mobileNav">
         <div class="logo">
           <!--Logo-->
-          <a href="{{route('productos')}}"><img src="img/logo.png" alt="Serigrafia Sur Chile - Estampados vinilo ropa personalizada "></a>
+          <a href="{{route('productos')}}"><img class="mobileImg" src="img/logo.png" alt="Serigrafia Sur Chile - Estampados vinilo ropa personalizada "></a>
         </div>
         <div class="mobileClick">
-          <i class="fa fa-align-justify"></i>
+          <!--Icono de menu-->
+          <i class="bi bi-list"></i>
         </div>
       </div>
+
+      
       <div class="siteWrapper">
         <!--Flecha para esconder sidebar o header-->
         <div class="hideHeader"><i class="bi bi-caret-left-fill"></i></div>
@@ -48,10 +55,11 @@
         <div class="header header1 animated fadeIn">
           <header class="mainHeader">
             <div class="closeMobile visible-xs visible-sm">
-              <i class="fa fa-times"></i>
+              <!--Icono de esconder menu movil-->
+              <i class="bi bi-arrow-bar-left"></i>
             </div>
             <div class="logo visible-md visible-lg">
-              <a href="#"><img src="img/logo.png" alt="vertec"></a>
+              <a href="{{route('productos')}}"><img src="img/logo.png" alt="vertec"></a>
             </div>
             <nav class="mainNav">
               <div id="dl-menu" class="dl-menuwrapper">

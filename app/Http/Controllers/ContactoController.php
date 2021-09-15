@@ -10,22 +10,31 @@ use Illuminate\Support\Facades\Mail;
 
 use Illuminate\Http\Request;
 
-class ContactoController extends Controller
-{
+class ContactoController extends Controller{
     
 
-    public function store(Request $request){
+    public function contacto(){
+        return view('contacto');
+    }
+
+    //Mensaje de Consulta
+    public function mensajeContacto(Request $request){
 
         //Recibir el json
-        $mensaje = $request->input("mensaje");
         $email = $request->input("email");
-        //Enviar correo
-        Mail::to($email)->send(new MessageReceive($mensaje));
+        $number = $request->input("whatsapp");
+        $message = $request->input("mensaje");
 
+
+
+        //Enviar mensaje
+        Mail::to('ventas@serigrafiasur.cl')->send(new MessageConsulta($message , $email , $number));
         //Revisar el correo (en produccion debe comnentarse)
-        //return new MessageReceive($mensaje);
+        //return new MessageConsulta($message , $email , $number);
+        return view('contacto');
 
-        return view('presupuesto');
+        
+        
     }
     
 }

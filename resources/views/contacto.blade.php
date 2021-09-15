@@ -27,19 +27,21 @@
          <div class="contact-form2">
  
            <!--Formulario de mensaje-->
-           <form class="form-horizontal" role="form" #formContacto="ngForm" (ngSubmit)="onSubmit()">
- 
+           <form class="form-horizontal" role="form" method="POST" action="{{route('mensajeContacto')}}">
+            @method('POST')
+            @csrf
+
              <div class="form-group">
                <label for="email" class="col-sm-4 control-label">Email (opcional)</label>
                <div class="col-sm-8">
-                 <input type="email" class="form-control" id="email" name="email" #email="ngModel" [(ngModel)]="contacto.email">
+                 <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Email *opcional*">
                </div>
              </div>
  
              <div class="form-group">
                <label for="whatsapp" class="col-sm-4 control-label">WhatsApp (opcional)</label>
                  <div class="col-sm-8">
-                   <input type="whatsapp" class="form-control" id="whatsapp" name="whatsapp" #whatsapp="ngModel" [(ngModel)]="contacto.whatsapp">
+                   <input type="number" class="form-control" id="whatsapp" name="whatsapp" placeholder="Numero de teléfono o celular (sin +56)">
                  </div>
              </div>
  
@@ -52,13 +54,16 @@
  
              <div class="form-group">
                <div class="col-sm-12">
-                 <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar mensaje</button>
+                <input type="submit" class="btn btn-primary btn-lg btn-block" value="Enviar Mensaje">
                </div>
              </div>
- 
+
  
            </form>
          </div>
+
+          
+     
  
         </div>
         </div>

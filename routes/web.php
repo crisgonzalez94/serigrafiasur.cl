@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GaleriaController;
 use App\Http\Controllers\ProductoController;
-
+use App\Http\Controllers\ContactoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,7 +28,6 @@ Route::get('/acerca', function () {
 
 Route::get('/galeria' , [GaleriaController::class, 'galeria'] )->name('galeria');
 
+Route::get('/contacto' , [ContactoController::class, 'contacto'] )->name('contacto');
 
-Route::get('/contacto', function () {
-    return view('contacto');
-})->name('contacto');
+Route::post('/mensajeContacto' , [ContactoController::class, 'mensajeContacto'] )->name('mensajeContacto');
