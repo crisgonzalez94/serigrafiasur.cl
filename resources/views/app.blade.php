@@ -72,9 +72,6 @@
                   <a href="{{route('acerca')}}">ACERCA DE NOSOTROS</a>
                 </li>
                 <li>
-                  <a href="{{route('productos')}}">COMBOS</a>
-                </li>
-                <li>
                   <a href="{{route('galeria')}}">GALERIA</a>
                 </li>
                 <li>
