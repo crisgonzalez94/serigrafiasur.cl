@@ -16,9 +16,7 @@ use App\Http\Controllers\ContactoController;
 |
 */
 
-Route::get('/', function () {
-    return view('productos');
-});
+Route::get('/', [ProductoController::class, 'productos'] );
 
 Route::get('/productos' , [ProductoController::class, 'productos'] )->name('productos');
 

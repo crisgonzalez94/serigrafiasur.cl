@@ -25,7 +25,7 @@
        <div class="blogSizer"></div>
 
 
-      @foreach ($fotos as $producto)
+      @foreach ($productos as $producto)
          <div class="blogBox1 {{$producto->categoria}}">
             <div class="box1Thumb"><img src="{{$producto->path}}" alt="simple post">
             <span class="overthumb"></span>
@@ -35,7 +35,7 @@
             </a>
             </div></div>
             <h3>{{$producto->titulo}}</h3>
-         </div>
+      </div>
       @endforeach
        
    </div>
