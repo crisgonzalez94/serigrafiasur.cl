@@ -35,7 +35,7 @@
             </a>
             </div></div>
             <h3>{{$producto->titulo}}</h3>
-      </div>
+         </div>
       @endforeach
        
    </div>
