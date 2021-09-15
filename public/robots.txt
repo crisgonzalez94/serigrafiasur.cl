@@ -1,2 +1,14 @@
+#country: chile
+User-agent: Googlebot
+Allow: /
+Allow: /productos
+Allow: /contacto
+Allow: /galeria
+
 User-agent: *
-Disallow:
+Allow: /
+Allow: /productos
+Allow: /contacto
+Allow: /galeria
+
+Sitemap: http://www.serigrafiasur.cl/sitemap.xml
