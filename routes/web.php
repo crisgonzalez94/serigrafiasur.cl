@@ -28,4 +28,5 @@ Route::get('/galeria' , [GaleriaController::class, 'galeria'] )->name('galeria')
 
 Route::get('/contacto' , [ContactoController::class, 'contacto'] )->name('contacto');
 
+
 Route::post('/mensajeContacto' , [ContactoController::class, 'mensajeContacto'] )->name('mensajeContacto');

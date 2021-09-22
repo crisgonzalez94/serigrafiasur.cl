@@ -74,10 +74,10 @@
  
            <h3 class="subTitle" style="color: orange">MEDIOS DE <span>CONTACTO</span></h3>
            <div class="contact-info">
-             <p><i class="bi bi-whatsapp"></i> +569 21775293</p>
-             <p><i class="bi bi-envelope-fill"></i> ventas@serigrafiasur.cl</p>
-             <p><i class="bi bi-instagram"></i> serigrafiasur</p>
-             <p><i class="bi bi-facebook"></i> Serigrafia Sur</p>
+             <a href="https://wa.me/+56921775293" target="_blank" style="color: white"><i class="bi bi-whatsapp"></i> +569 21775293</a><br>
+             <a href="https://wa.me/+56921775293" target="_blank" style="color: white"><i class="bi bi-envelope-fill"></i> ventas@serigrafiasur.cl</a><br>
+             <a href="https://wa.me/+56921775293" target="_blank" style="color: white"><i class="bi bi-instagram"></i> serigrafiasur</a><br>
+             <a href="https://wa.me/+56921775293" target="_blank" style="color: white"><i class="bi bi-facebook"></i> Serigrafia Sur</a>
            </div>
          </div>
         </div>

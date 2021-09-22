@@ -84,12 +84,12 @@
           <aside class="mainSidebar">
             <div class="navigation-social">
               <h3>ESTAMOS EN LAS REDES</h3>
-              <div class="navigation-social-icons"><a href="#"><i class="bi bi-facebook"></i></a><p></p></div>
-              <div class="navigation-social-icons"><a href="#"><i class="bi bi-instagram"></i></a><p></p></div>
-              <div class="navigation-social-icons"><a href="#"><i class="bi bi-whatsapp"></i></a><p></p></div>
+              <div class="navigation-social-icons"><a href="#" target="_blank"><i class="bi bi-facebook"></i></a><p></p></div>
+              <div class="navigation-social-icons"><a href="https://www.instagram.com/serigrafiasur/" target="_blank"><i class="bi bi-instagram"></i></a><p></p></div>
+              <div class="navigation-social-icons"><a href="https://wa.me/+56921775293" target="_blank"><i class="bi bi-whatsapp"></i></a><p></p></div>
             </div>
             <div class="navigation-copyright">
-              <p>SerigrafiSur SPA 2021</p>
+              <p>SerigrafiaSur SPA 2021</p>
             </div>
 
           </aside>          
