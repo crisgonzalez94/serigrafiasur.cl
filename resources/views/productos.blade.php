@@ -28,9 +28,8 @@
       @foreach ($productos as $producto)
          <div class="blogBox1 {{$producto->categoria}}">
             <div class="box1Thumb"><img src="{{$producto->path}}" alt="simple post">
-            <span class="overthumb"></span>
             <div class="carousel-icon">
-            <a href="#" class="postlink">
+               <a href="https://api.whatsapp.com/send?phone=+56951212239&text=Hola%20SerigrafiaSur%20Consulto%20por:" class="postlink">
                Consulta por este producto <i class="bi bi-whatsapp"></i>
             </a>
             </div></div>
