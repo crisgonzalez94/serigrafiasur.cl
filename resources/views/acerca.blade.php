@@ -11,7 +11,7 @@
          <!-- Services-1 Box -->
          <div class="col-md-4">
            <a href="#"><div class="services-1 animated bounceIn">
-             <div class="holder"><i class="vertec-settings icon-4x"></i></div>
+             <div class="holder"><i class="bi bi-truck" style="font-size: 75px; line-height: 5px"></i></div>
              <h4>Envios a todo el País</h4>
              <p></p>
            </div></a>
@@ -19,7 +19,7 @@
          <!-- Services-1 Box -->
          <div class="col-md-4">
            <a href="#"><div class=" services-1 animated bounceIn">
-             <div class="holder"><i class="vertec-lamp icon-4x"></i></div>
+             <div class="holder"><i class="bi bi-stars"  style="font-size: 75px; line-height: 5px"></i></i></div>
              <h4>Ideas Creativas</h4>
              <p></p>
            </div></a>
@@ -27,7 +27,7 @@
          <!-- Services-1 Box -->
          <div class="col-md-4">
            <a href="#"><div class="services-1 animated bounceIn">
-             <div class="holder"><i class="vertec-responsive icon-5x"></i></div>
+             <div class="holder"><i class="bi bi-question-diamond-fill" style="font-size: 75px; line-height: 5px"></i></div>
              <h4>Soporte</h4>
              <p></p>
            </div></a>
