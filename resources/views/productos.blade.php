@@ -20,7 +20,6 @@
 
 
    <!--Listado de productos-->
-
    <div class="blogContainer animated fadeInRightBig">
        <div class="blogSizer"></div>
 
