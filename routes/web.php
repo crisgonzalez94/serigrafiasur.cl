@@ -20,6 +20,8 @@ Route::get('/', [ProductoController::class, 'productos'] );
 
 Route::get('/productos' , [ProductoController::class, 'productos'] )->name('productos');
 
+Route::get('/catalogo' , [ProductoController::class, 'catalogoPdf'] )->name('catalogo');//
+
 Route::get('/acerca', function () {
     return view('acerca');
 })->name('acerca');
@@ -27,6 +29,7 @@ Route::get('/acerca', function () {
 Route::get('/galeria' , [GaleriaController::class, 'galeria'] )->name('galeria');
 
 Route::get('/contacto' , [ContactoController::class, 'contacto'] )->name('contacto');//
+
 
 
 Route::post('/mensajeContacto' , [ContactoController::class, 'mensajeContacto'] )->name('mensajeContacto');

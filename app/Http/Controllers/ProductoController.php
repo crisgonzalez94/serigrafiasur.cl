@@ -16,4 +16,8 @@ class ProductoController extends Controller
         return view('productos' , ['productos' => $productos]);
     }
 
+    public function catalogoPdf(){
+        return redirect('http://www.serigrafiasur.cl/catalogo.pdf');
+    }
+
 }

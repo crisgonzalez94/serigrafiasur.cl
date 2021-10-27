@@ -77,6 +77,9 @@
                 <li>
                   <a href="{{route('contacto')}}">DEJANOS UN MENSAJE</a>
                 </li>
+                <li>
+                  <a href="{{route('catalogo')}}" target="_blank">DESCARGAR CATÁLOGO PDF</a>
+                </li>
               </ul>
               </div><!-- /dl-menuwrapper -->
             </nav>
