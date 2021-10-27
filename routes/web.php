@@ -20,7 +20,9 @@ Route::get('/', [ProductoController::class, 'productos'] );
 
 Route::get('/productos' , [ProductoController::class, 'productos'] )->name('productos');
 
-Route::get('/catalogo' , [ProductoController::class, 'catalogoPdf'] )->name('catalogo');//
+Route::get('/catalogoPdf' , [ProductoController::class, 'catalogoPdf'] )->name('catalogo');
+//Esta esta pensada mas para los buscadores y ninguna parte de la web redirige a esta parte
+Route::get('/catalogo' , [ProductoController::class, 'catalogo'] );
 
 Route::get('/acerca', function () {
     return view('acerca');

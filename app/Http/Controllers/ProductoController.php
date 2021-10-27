@@ -20,4 +20,8 @@ class ProductoController extends Controller
         return redirect('http://www.serigrafiasur.cl/catalogo.pdf');
     }
 
+    public function catalogo(){
+        return view('catalogo');
+    }
+
 }
