@@ -27,6 +27,8 @@
         Puedes ver los productos en esta web o te dejamos nuestro catálogo para que siempre lo tengas, recuerda que actualizamos con nuevos productos constantemente.
       </p>
 
+      <h2>Descargar catálogo de Indumentaria para Pymes</h2>
+
       <br>
       <a href="{{route('catalogo')}}" target="_blank" class="btn btn-primary btn-lg">Descargar Catálogo PDF</a>
       <br>
