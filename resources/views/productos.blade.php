@@ -12,7 +12,8 @@
            <a href="#tazones"><li class="slug-tazones">VASOS Y TAZONES</li></a>
            <a href="#bolsas"><li class="slug-bolsas">BOLSAS Y MOCHILAS</li></a>
            <a href="#cajas"><li class="slug-cajas">CAJAS</li></a>
-           <a href="#gorros"><li class="slug-gorros">GORROS</li></a>
+           <a href="#gorros"><li class="slug-gorros">GORROS Y ACCESORIOS</li></a>
+           <a href="#deportivos"><li class="slug-deportivos">DEPORTIVOS</li></a>
            <a href="#otros"><li class="slug-otros">OTROS</li></a>
        </ul>
    </div>
