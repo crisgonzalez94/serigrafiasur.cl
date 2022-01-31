@@ -7,9 +7,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>SerigrafiaSur</title>
-    <meta name="keywords" content="HTML5/CSS3 Template" />
-    <meta name="description" content="Vertec - Creative Portfolio Template">
-    <meta name="author" content="bliccathemes">
+    <meta name="keywords" content="Serigrafia, Sur, Chile, Estampados, Pymes, Curico, Estampados" />
+    <meta name="description" content="Ropa Personalizada y Estampada para Pymes y pequeños negocios">
+    <meta name="author" content="Cristian Nazareno Gonzalez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -19,9 +19,9 @@
     <link href="css/menu.css" rel="stylesheet">
     <link href="css/icons.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/modernizr.custom.js"></script>
+    
+
+    
 
     <!--Boostrap iconos-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
@@ -134,6 +134,9 @@
     </div>
 
     
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.queryloader2.js"></script>
@@ -143,5 +146,8 @@
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/main.js"></script>
+
+    
+
   </body>
 </html>

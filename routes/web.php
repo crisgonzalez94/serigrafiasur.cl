@@ -18,6 +18,9 @@ use App\Http\Controllers\ContactoController;
 
 Route::get('/', [ProductoController::class, 'productos'] );
 
+Route::get('/inicio' , function(){return view('inicio');} )->name('inicio');
+
+
 Route::get('/productos' , [ProductoController::class, 'productos'] )->name('productos');
 
 Route::get('/catalogoPdf' , [ProductoController::class, 'catalogoPdf'] )->name('catalogo');
