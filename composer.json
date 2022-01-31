@@ -13,8 +13,9 @@
         "laravel/framework": "^8.54",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "s-ichikawa/laravel-sendgrid-driver": "^3.0",
-
+        "s-ichikawa/laravel-sendgrid-driver": "^3.0"
+    },
+    "require-dev": {
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",
