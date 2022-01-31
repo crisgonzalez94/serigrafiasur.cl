@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>SerigrafiaSur</title>
-    <meta name="keywords" content="Serigrafia, Sur, Chile, Estampados, Pymes, Curico, Estampados" />
+    <meta name="keywords" content="Serigrafia, Sur, Chile, Estampados, Pymes, Curico, Estampados , Bordados" />
     <meta name="description" content="Ropa Personalizada y Estampada para Pymes y pequeños negocios">
     <meta name="author" content="Cristian Nazareno Gonzalez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,9 +19,9 @@
     <link href="css/menu.css" rel="stylesheet">
     <link href="css/icons.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    
 
-    
+
+
 
     <!--Boostrap iconos-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
@@ -75,7 +75,7 @@
         </div>
       </div>
 
-      
+
       <div class="siteWrapper">
         <!--Flecha para esconder sidebar o header-->
         <div class="hideHeader"><i class="bi bi-caret-left-fill"></i></div>
@@ -123,17 +123,17 @@
               <p>SerigrafiaSur SPA 2021</p>
             </div>
 
-          </aside>          
+          </aside>
         </div>
 
         @yield('content')
 
-        
-        
+
+
       </div>
     </div>
 
-    
+
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/modernizr.custom.js"></script>
@@ -147,7 +147,7 @@
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/main.js"></script>
 
-    
+
 
   </body>
 </html>
